@@ -13,7 +13,7 @@ docker-compose up
 
 For port mappings see [Triplestores](https://github.com/lu-pl/semantic-sandbox?tab=readme-ov-file#triplestores).
 
-[Todo: Add compose profiles for selecting the Triplestores to start.]
+[Todo: Add compose profiles for selecting which Triplestores to start.]
 
 ## Triplestores
 
