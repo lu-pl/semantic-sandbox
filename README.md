@@ -1,6 +1,8 @@
 # Semantic Sandbox
 
-Compose stack for running popular Triplestores.
+Semantic Sandbox is a compose stack for running popular Triplestores.
+
+The setup can be useful for automated testing or simply tinkering. 🔧🐱
 
 ## Usage
 Run `docker-compose` to start the compose environment with all featured Tripelstores.  
