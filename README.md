@@ -20,3 +20,17 @@ For port mappings see [Triplestores](https://github.com/lu-pl/semantic-sandbox?t
 The following Triplestores are currently supported:
 
 ### GraphDB
+
+#### Info
+- image: [khaller/graphdb-free](https://hub.docker.com/r/khaller/graphdb-free)
+- port: 7270
+- SPARQL endpoint: http://127.0.0.1:7270/sparql
+
+#### Notes
+[...]
+
+Resources: 
+- GraphDB Docs: [Configuring a repository](https://graphdb.ontotext.com/documentation/10.6/configuring-a-repository.html)  
+- Dockerhub Overview: [khaller/graphdb-free](https://hub.docker.com/r/khaller/graphdb-free)  
+- Pokemon Playground: [ontotext-graphdb-playground](https://github.com/pokemon-kg/ontotext-graphdb-playground/tree/main)  
+  Very instructive compose setup for GraphDB by [khaller93](https://github.com/khaller93).
