@@ -1,0 +1,14 @@
+services:
+  # graphdb:
+  #   image: khaller/graphdb-free:${GDB_VERSION}
+  #   command: ["--GDB_HEAP_SIZE", "${GDB_HEAP_SIZE}"]
+  #   ports:
+  #     - 127.0.0.1:7270:7200
+  #   volumes:
+  #     - "./config/config.ttl:/repository.init/sandbox/config.ttl:ro"
+
+  blazegraph:
+    image: lyrasis/blazegraph:${BG_VERSION}
+    
+    ports:
+      - 127.0.0.1:8889:8080
