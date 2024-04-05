@@ -1,6 +1,6 @@
 # Semantic Sandbox
 
-Container Sandbox for running popular Triplestores.
+Compose stack for running popular Triplestores.
 
 ## Usage
 Run `docker-compose` to start the compose environment with all featured Tripelstores.  
