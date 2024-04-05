@@ -3,7 +3,7 @@
 Container Sandbox for running popular Triplestores.
 
 ## Usage
-Run `docker-compose up` to start the compose environment with all featured Tripelstores.  
+Run `docker-compose` to start the compose environment with all featured Tripelstores.  
 
 ```shell
 git clone git@github.com:lu-pl/semantic-sandbox.git
