@@ -21,6 +21,7 @@ To run only a single store or a selection of stores, pass the store handle to do
 
 The following Triplestores are currently supported:
 
+***
 ### <ins>GraphDB</ins>
 
 #### Info
@@ -50,6 +51,7 @@ Resources:
 - [Blazegraph Wiki](https://github.com/blazegraph/database/wiki)
 
 
+***
 ### <ins>Fuseki</ins>
 #### Info
 - image: [secoresearch/fuseki](https://hub.docker.com/r/secoresearch/fuseki)
@@ -66,6 +68,7 @@ Resources:
 
 
 <!-- ################################################## -->
+<!-- *** -->
 <!-- ### <store name> -->
 <!-- #### Info  -->
 <!-- - image  -->
