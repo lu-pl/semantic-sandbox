@@ -35,7 +35,8 @@ Resources:
 - Dockerhub Overview: [khaller/graphdb-free](https://hub.docker.com/r/khaller/graphdb-free)  
 - Pokemon Playground: [ontotext-graphdb-playground](https://github.com/pokemon-kg/ontotext-graphdb-playground/tree/main)  
   Very instructive compose setup for GraphDB by [khaller93](https://github.com/khaller93).
-  
+
+***
 ### <ins>Blazegraph</ins>
 
 #### Info
