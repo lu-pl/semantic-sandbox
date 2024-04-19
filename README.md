@@ -1,8 +1,8 @@
 # Semantic Sandbox
 
-Semantic Sandbox is a compose stack for running popular Triplestores.
+Semantic Sandbox is a simple compose stack for running popular Triplestores.
 
-The setup can be useful for automated testing or simply tinkering. 🔧🐱
+The setup can be useful for end-to-end testing or simply tinkering. 🔧🐱
 
 ## Usage
 Run `docker-compose` to start the compose environment with all featured Tripelstores.  
@@ -13,9 +13,9 @@ cd semantic-sandbox
 docker-compose up
 ```
 
-For port mappings see [Triplestores](https://github.com/lu-pl/semantic-sandbox?tab=readme-ov-file#triplestores).
+For port mappings see [Triplestores](https://github.com/lu-pl/semantic-sandbox?tab=readme-ov-file#triplestores).  
 
-[Todo: Add compose profiles for selecting which Triplestores to start.]
+Run only a single store or a selection of stores by calling `docker-compose up <store1> <store2>`
 
 ## Triplestores
 
@@ -36,3 +36,41 @@ Resources:
 - Dockerhub Overview: [khaller/graphdb-free](https://hub.docker.com/r/khaller/graphdb-free)  
 - Pokemon Playground: [ontotext-graphdb-playground](https://github.com/pokemon-kg/ontotext-graphdb-playground/tree/main)  
   Very instructive compose setup for GraphDB by [khaller93](https://github.com/khaller93).
+  
+### Blazegraph
+#### Info
+- image: [lyrasis/blazegraph](https://hub.docker.com/r/lyrasis/blazegraph)
+- port: 8889
+- SPARQL endpoint: http://127.0.0.1:8889/bigdata/sparql
+
+#### Notes
+Resources:
+- [Blazegraph Overview](https://blazegraph.com/)
+- [Blazegraph Wiki](https://github.com/blazegraph/database/wiki)
+
+
+### Fuseki
+#### Info
+- image: [secoresearch/fuseki](https://hub.docker.com/r/secoresearch/fuseki)
+- port: 3030
+- SPARQL endpoint: http://127.0.0.1:3030/ds/sparql
+
+For other endpoints see the [Data access](https://hub.docker.com/r/secoresearch/fuseki) section or [SOH - SPARQL over HTTP](https://jena.apache.org/documentation/fuseki2/soh.html).
+
+
+#### Notes
+
+Resources:
+- [Fuseki Docs](https://jena.apache.org/documentation/fuseki2/index.html)
+
+
+
+<!-- ################################################## -->
+<!-- ### <store name> -->
+<!-- #### Info  -->
+<!-- - image  -->
+<!-- - port -->
+<!-- - SPARQL endpoint -->
+
+<!-- #### Notes -->
+<!-- ################################################## -->
