@@ -13,9 +13,9 @@ cd semantic-sandbox
 docker-compose up
 ```
 
-For port mappings see [Triplestores](https://github.com/lu-pl/semantic-sandbox?tab=readme-ov-file#triplestores).  
+For port mappings see [Triplestores](https://github.com/lu-pl/semantic-sandbox?tab=readme-ov-file#triplestores) below.  
 
-Run only a single store or a selection of stores by calling `docker-compose up <store1> <store2>`
+To run only a single store or a selection of stores, pass the store handle to docker-compose, e.g. `docker-compose up <store1> <store2>`.
 
 ## Triplestores
 
@@ -29,7 +29,6 @@ The following Triplestores are currently supported:
 - SPARQL endpoint: http://127.0.0.1:7270/sparql
 
 #### Notes
-[...]
 
 Resources: 
 - GraphDB Docs: [Configuring a repository](https://graphdb.ontotext.com/documentation/10.6/configuring-a-repository.html)  
