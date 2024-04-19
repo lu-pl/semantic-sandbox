@@ -21,7 +21,7 @@ To run only a single store or a selection of stores, pass the store handle to do
 
 The following Triplestores are currently supported:
 
-### GraphDB
+### <ins>GraphDB</ins>
 
 #### Info
 - image: [khaller/graphdb-free](https://hub.docker.com/r/khaller/graphdb-free)
@@ -36,7 +36,8 @@ Resources:
 - Pokemon Playground: [ontotext-graphdb-playground](https://github.com/pokemon-kg/ontotext-graphdb-playground/tree/main)  
   Very instructive compose setup for GraphDB by [khaller93](https://github.com/khaller93).
   
-### Blazegraph
+### <ins>Blazegraph</ins>
+
 #### Info
 - image: [lyrasis/blazegraph](https://hub.docker.com/r/lyrasis/blazegraph)
 - port: 8889
@@ -48,14 +49,13 @@ Resources:
 - [Blazegraph Wiki](https://github.com/blazegraph/database/wiki)
 
 
-### Fuseki
+### <ins>Fuseki</ins>
 #### Info
 - image: [secoresearch/fuseki](https://hub.docker.com/r/secoresearch/fuseki)
 - port: 3030
 - SPARQL endpoint: http://127.0.0.1:3030/ds/sparql
 
 For other endpoints see the [Data access](https://hub.docker.com/r/secoresearch/fuseki) section or [SOH - SPARQL over HTTP](https://jena.apache.org/documentation/fuseki2/soh.html).
-
 
 #### Notes
 
