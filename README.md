@@ -27,7 +27,7 @@ The following Triplestores are currently supported:
 #### Info
 - image: [khaller/graphdb-free](https://hub.docker.com/r/khaller/graphdb-free)
 - port: 7270
-- SPARQL endpoint: http://127.0.0.1:7270/sparql
+- SPARQL endpoint: http://127.0.0.1:7270/repositories/sandbox
 
 #### Notes
 
