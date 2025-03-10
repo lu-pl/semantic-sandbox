@@ -5,7 +5,7 @@ services:
     ports:
       - 127.0.0.1:7270:7200
     volumes:
-      - "./config/config.ttl:/repository.init/sandbox/config.ttl:ro"
+      - "./config/graphdb/config.ttl:/repository.init/sandbox/config.ttl:ro"
       
   blazegraph:
     image: lyrasis/blazegraph:${BG_VERSION}
