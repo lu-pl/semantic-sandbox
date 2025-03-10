@@ -65,6 +65,28 @@ For other endpoints see the [Data access](https://hub.docker.com/r/secoresearch/
 Resources:
 - [Fuseki Docs](https://jena.apache.org/documentation/fuseki2/index.html)
 
+***
+### <ins>QLever</ins>
+#### Info
+- image
+- port
+- SPARQL endpoint
+
+#### Notes
+Resources:
+- [QLever Github](https://github.com/ad-freiburg/qlever)
+
+
+***
+### <ins>Oxigraph</ins>
+#### Info
+- image
+- port
+- SPARQL endpoint
+
+#### Notes
+Resources:
+- [Oxigraph Github](https://github.com/oxigraph/oxigraph)
 
 
 <!-- ################################################## -->
